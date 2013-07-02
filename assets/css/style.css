@@ -1,0 +1,156 @@
+/* body */
+body{
+	background: #EFEFEF;
+	overflow-x: hidden;
+}
+
+
+/* main wrapper */
+.main_wrapper{
+	overflow: auto;
+	min-height: 200px;
+	min-width: 400px;
+	width: 100%;
+	height: 100%;
+}
+
+/* thin font */
+.thin{
+	font-family: 'Advent Pro', sans-serif;
+	font-weight: 100;
+	}
+
+
+/* float right */
+.right{
+	float: right;
+}
+
+
+/* float left */
+.left{
+	float: left;
+}
+
+
+/* inline */
+.inline{
+	display: inline;
+}
+
+
+/* prettify */
+.prettify{
+	padding : 5px;
+	margin : 5px;
+}
+
+/* bc_image */
+#bc_image{
+	width: 100%;
+	max-height: 100%;
+}
+
+/* intro */
+#intro{
+	position: absolute;
+	top: 70%;
+	right: 0%;
+}
+
+/* tagline */
+#tagline{
+	position : absolute;
+	top : 10%;
+	left : 5%;
+	z-index: 5;
+}
+
+#tagline2{
+	position : absolute;
+	top : 23%;
+	left : 10%;
+}
+
+#tagline3{
+	position : absolute;
+	top : 33%;
+	left : 18%;
+}
+
+#tagline4{
+	position : absolute;
+	top : 43%;
+	left : 26%;
+}
+
+.tagline{
+	cursor: pointer;
+	display: none;
+}
+
+.tagline:hover{
+	color: red;
+	margin-top : 8px;
+}
+
+/* blur */
+.blur{
+	opacity: 0.1;
+}
+
+.light-blur{
+	opacity: 0.4;
+}
+
+/* social icons */
+#social{
+	display: none;
+}
+
+#fb{
+	height: 50px;
+}
+
+#twitter, #gplus{
+	height: 40px;
+}
+
+#gplus{
+	margin-right : 15px;
+}
+
+
+/* About me page */
+#about_me{
+	position: absolute;
+	top: 110%;
+}
+
+/* developer page */
+#developer{
+	position: absolute;
+	top: 220%;
+}
+
+/*Musician*/
+#musician{
+	position: absolute;
+	top: 330%;
+}
+
+/*Photographer*/
+#photographer{
+	position: absolute;
+	top: 440%;
+}
+/* media queries */
+
+@media all and (max-width: 1000px) {
+ /* thin font */
+.thin{
+	font-family: 'Advent Pro', sans-serif;
+	font-weight: 900;
+	}
+}
+
